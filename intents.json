@@ -1,0 +1,108 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"How are you",
+				"Is anyone there?",
+				"Hello",
+				"Good day"
+			],
+			"responses": [
+				"Hello, nice to meet you",
+				"Hello, thanks for visiting",
+				"Hi there, what can I do for you?",
+				"Hi there, how can I help?",
+				"Hello, How can I assist you today?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye", 
+				"See you later", 
+				"Goodbye"
+			],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! Come back again soon."
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks", 
+				"Thank you", 
+				"That's helpful", 
+				"Thank's a lot!"
+			],
+			"responses": [
+				"Happy to help!", 
+				"Any time!", 
+				"My pleasure"
+			]
+		},
+		{
+			"tag": "project",
+			"patterns": [
+				"What is this project?",
+				"Explain me about the project?",
+				"Tell me about the project",
+				"Tell me more about the project",
+				"Help me understand this project"
+			],
+			"responses": [
+				"Here we are developing a ct scanner software",
+				"This project is aimed in developing a ct scanner machine",
+				"Here the team is working towards developing a scanner machine"
+			]
+		},
+		{
+			"tag": "tools",
+			"patterns": [
+				"What are the softwares used?",
+				"What are the tools used?",
+				"What are the softwares needed?",
+				"Which all softwares should I install?",
+				"Which all tools should I install?"
+			],
+			"responses": [
+				"Main tools needed are mobaxterm, winscp, vncviewer",
+				"Main softwares needed are vncviewer, mobaxterm, winscp",
+				"You need to raise request to install winscp, vncviewer, mobaxterm",
+				"Mainly used tools are vncviewer, winscp and mobaxterm"
+			]
+		},
+		{
+			"tag": "recon",
+			"patterns": [
+				"What is recon?",
+				"Tell me about recon?",
+				"Explain about recon"
+			],
+			"responses": [
+				"Its the short for the reconstruction subsystem",
+				"Abbrivation for reconstruction",
+				"Its one of the two main subsystems which generate images"
+			]
+		},
+		{
+			"tag": "funny",
+			"patterns": [
+				"Tell me a joke!",
+				"Tell me something funny!",
+				"Do you know a joke?"
+      			],
+      			"responses": [
+	      			"I ate a clock yesterday, it was very time-consuming.",
+	      			"The best thing about good old days is that we were neither good nor old.",
+				"Do I lose when the police officer says papers and I say scissors?",
+				"Instagram is just Twitter for people who go outside.",
+				"What did the buffalo say when his son left for college? Bison."
+      			]
+		}
+	]
+}
