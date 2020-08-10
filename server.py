@@ -30,11 +30,11 @@ def BotResponse():
         print('botResponse - POST')
         chatFromUser = request.form.get('chatFromUser')
         chatResponseFromBot = getResponseFromJSON(chatFromUser)
-        result = {'data': {'id':1, 'name':chatResponseFromBot}}
+        result = {'data': {'botResponse':chatResponseFromBot}}
         return jsonify(result) 
    else:
-        result = {'data': {'id':2, 'name':'reply from GET'}}
-        return jsonify(result) 
+        result = {'data': {'botResponse':'Please send request as POST'}}
+        return jsonify(result)
 
     # if request.method == 'POST':
         # data = request.form
